@@ -90,6 +90,14 @@ button{
 button:hover{
     background-color:var(--primaryColor);
 }
+@media only screen and (min-width: 360px){
+    .footer>*:not(.copy) {
+        display: none;
+    }
+    .copy{
+        text-align: center;
+    }
+}
 .footer {
     padding: 0;
     position: fixed;
